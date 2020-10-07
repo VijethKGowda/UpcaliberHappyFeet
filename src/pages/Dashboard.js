@@ -179,7 +179,7 @@ export const Dashboard = () => {
           <Filters
             onSort={handleSort}
           />
-          <div className="mt-4 mb-10 flex flex-col md:flex-row lg:flex-row flex-wrap flex-grow justify-start lg:px-12 px-3 md:px-12 py-2 bg-white">
+          <div className="mt-4 mb-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full bg-white">
             {
               col.length == 0 ?
                 <>

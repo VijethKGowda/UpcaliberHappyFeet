@@ -2,7 +2,7 @@ import React from "react";
 
 export const Product = ({ name, image, price, discount, addToCart }) => {
   return (
-    <div className="flex flex-col flex-wrap flex-grow justify-between mx-4 w-full md:w-2/5 lg:w-1/4" key={name}>
+    <div className="flex flex-grow justify-between mx-4" key={name}>
         <div className="p-4 w-full">
           <img alt="ecommerce" className="w-full h-48 my-4 block" src={image} />
           <div className="flex flex-col flex-grow justify-between items-center h-auto text-base">
