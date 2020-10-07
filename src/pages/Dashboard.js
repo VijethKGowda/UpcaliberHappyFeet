@@ -143,7 +143,7 @@ export const Dashboard = () => {
             <option value='3000'>3000</option>
             <option value='5000'>5000</option>
             <option value='10000'>10000</option>
-            <option value='1000000'>MAX</option>
+            <option defaultChecked value='1000000'>MAX</option>
           </select>
 
           <h2 className="p-3 text-sm font-semibold uppercase">Brands</h2>
