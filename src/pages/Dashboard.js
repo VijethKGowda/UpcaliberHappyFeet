@@ -203,9 +203,16 @@ export const Dashboard = () => {
                       }
                     }
                     else return (
-                      <div>
-                        Min price range should be less than max price range
-                      </div>
+                      <>
+                        <Product
+                          key={`${product.name}-${product.image}-${product.price}`}
+                          name={product.name}
+                          image={product.image}
+                          price={product.price}
+                          discount={product.discount}
+                          addToCart={() => { addToCart(index) }}
+                        />
+                      </>
                     )
                   })}
                 </>
