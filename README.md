@@ -49,7 +49,7 @@ At present, we officially aim to support the last two versions of the following 
 
 ## Licensing
 
-- Copyright 2019 K Vijeth
+- Copyright 2020 K Vijeth
 
 ## Packages Used
 
